@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{54578DDE-35CB-4DCE-9874-EED0CD889A99}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F267CF59-2069-4533-87B9-9A07C1DFEFAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B66EAE37-AC0D-4444-B020-2096487F6366}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.travis.yml = .travis.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{316D81C5-D984-4B94-9C08-5E8ABEDE53F6}"
+	ProjectSection(SolutionItems) = preProject
+		.github\ISSUE_TEMPLATE.md = .github\ISSUE_TEMPLATE.md
+		.github\PULL_REQUEST_TEMPLATE.md = .github\PULL_REQUEST_TEMPLATE.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D6EE2074-A44E-4F92-802C-03560B445DED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitcoinAmiens.CryptoTradingBot.App", "src\BitcoinAmiens.CryptoTradingBot.App\BitcoinAmiens.CryptoTradingBot.App.csproj", "{8E1DF0B0-70C5-43EF-A1AC-C854AA4CEC93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitcoinAmiens.CryptoTradingBot.App.Test", "test\BitcoinAmiens.CryptoTradingBot.App.Test\BitcoinAmiens.CryptoTradingBot.App.Test.csproj", "{1FCDAAB1-E62D-4A84-B802-B2B0BFE689D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E1DF0B0-70C5-43EF-A1AC-C854AA4CEC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E1DF0B0-70C5-43EF-A1AC-C854AA4CEC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E1DF0B0-70C5-43EF-A1AC-C854AA4CEC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E1DF0B0-70C5-43EF-A1AC-C854AA4CEC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCDAAB1-E62D-4A84-B802-B2B0BFE689D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCDAAB1-E62D-4A84-B802-B2B0BFE689D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCDAAB1-E62D-4A84-B802-B2B0BFE689D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCDAAB1-E62D-4A84-B802-B2B0BFE689D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{316D81C5-D984-4B94-9C08-5E8ABEDE53F6} = {B66EAE37-AC0D-4444-B020-2096487F6366}
+		{8E1DF0B0-70C5-43EF-A1AC-C854AA4CEC93} = {F267CF59-2069-4533-87B9-9A07C1DFEFAA}
+		{1FCDAAB1-E62D-4A84-B802-B2B0BFE689D2} = {D6EE2074-A44E-4F92-802C-03560B445DED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2351A97-238B-47D9-A355-066F99041EAC}
+	EndGlobalSection
+EndGlobal
