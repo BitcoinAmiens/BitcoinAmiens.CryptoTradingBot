@@ -1,0 +1,17 @@
+language: csharp
+solution: BitcoinAmiens.CryptoTradingBot.sln
+
+mono: none
+dotnet: 2.0.3
+dist: trusty
+
+branches:
+  except:
+    - gh-pages
+
+script:
+  - dotnet --info
+  - mono .paket/paket.exe restore
+  - dotnet build BitcoinAmiens.CryptoTradingBot.sln
+  - pushd ./test/BitcoinAmiens.CryptoTradingBot.App.test
+  - dotnet xunit
