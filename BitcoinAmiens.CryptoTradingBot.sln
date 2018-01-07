@@ -30,6 +30,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitcoinAmiens.CryptoTrading
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitcoinAmiens.CryptoTradingBot.App.Test", "test\BitcoinAmiens.CryptoTradingBot.App.Test\BitcoinAmiens.CryptoTradingBot.App.Test.csproj", "{1FCDAAB1-E62D-4A84-B802-B2B0BFE689D2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{080AF009-304C-4891-BA15-1B17EC052E34}"
+	ProjectSection(SolutionItems) = preProject
+		docs\index.md = docs\index.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +57,7 @@ Global
 		{316D81C5-D984-4B94-9C08-5E8ABEDE53F6} = {B66EAE37-AC0D-4444-B020-2096487F6366}
 		{8E1DF0B0-70C5-43EF-A1AC-C854AA4CEC93} = {F267CF59-2069-4533-87B9-9A07C1DFEFAA}
 		{1FCDAAB1-E62D-4A84-B802-B2B0BFE689D2} = {D6EE2074-A44E-4F92-802C-03560B445DED}
+		{080AF009-304C-4891-BA15-1B17EC052E34} = {B66EAE37-AC0D-4444-B020-2096487F6366}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2351A97-238B-47D9-A355-066F99041EAC}
